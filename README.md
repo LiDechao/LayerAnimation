@@ -1,6 +1,8 @@
 # LayerAnimation
 
+### 页面设置
 
+在ViewController中的dataSource，可直接查看对应效果的页面，为了方便理解，所有的情形都以代码的形式来展示。
 
 ### CAShapeLayer
 

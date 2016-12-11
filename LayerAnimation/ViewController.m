@@ -50,11 +50,7 @@ static NSString *const kLayerCellIdentifier = @"kLayerCellIdentifier";
         _dataSource = @[@[@"layer content", @"ContentVC"],
                          @[@"CAShapeLayer", @"ShapeLayer"],
                          @[@"CAEmitterLayer_fb点赞效果", @"EmitterLayer"],
-                         @[@"CAEmitterLayer_下雪效果", @"EmitterLayer_Snow"],
-//                         @[@"类似qq消息气泡的拖拽效果", @"DragBubbleVC"],
-//                         @[@"气泡走动的过渡效果", @"CircleVC"],
-//                         @[@"点击跳动、旋转并改变图片", @"JumpAndChangeImgVC"],
-//                         @[@"progress加载", @"ProgressLoading"]
+                         @[@"CAEmitterLayer_下雪效果", @"EmitterLayer_Snow"]
                          ];
     }
     return _dataSource;
