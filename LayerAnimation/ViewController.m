@@ -48,9 +48,10 @@ static NSString *const kLayerCellIdentifier = @"kLayerCellIdentifier";
 - (NSArray *)dataSource {
     if (!_dataSource) {
         _dataSource = @[@[@"layer content", @"ContentVC"],
-                         @[@"CAShapeLayer", @"ShapeLayer"],
-                         @[@"CAEmitterLayer_fb点赞效果", @"EmitterLayer"],
-                         @[@"CAEmitterLayer_下雪效果", @"EmitterLayer_Snow"]
+                        @[@"CAShapeLayer", @"ShapeLayer"],
+                        @[@"CAEmitterLayer_fb点赞效果", @"EmitterLayer"],
+                        @[@"CAEmitterLayer_下雪效果", @"EmitterLayer_Snow"],
+                        @[@"GradientLayer渐变效果", @"GradientLayer"]
                          ];
     }
     return _dataSource;
