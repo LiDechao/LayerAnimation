@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1214DB1DFFE98E004A45EE /* ReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1214DA1DFFE98E004A45EE /* ReplicatorLayer.m */; };
 		8A5E0E2B1DFD5143000AE2B1 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E0E2A1DFD5143000AE2B1 /* Sparkle.png */; };
 		8A5E0E2D1DFD5811000AE2B1 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E0E2C1DFD5811000AE2B1 /* snow.png */; };
 		8A5E0E331DFD5852000AE2B1 /* EmitterLayer_Snow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E0E321DFD5852000AE2B1 /* EmitterLayer_Snow.m */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A1214D91DFFE98E004A45EE /* ReplicatorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayer.h; sourceTree = "<group>"; };
+		8A1214DA1DFFE98E004A45EE /* ReplicatorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayer.m; sourceTree = "<group>"; };
 		8A5E0E2A1DFD5143000AE2B1 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
 		8A5E0E2C1DFD5811000AE2B1 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
 		8A5E0E311DFD5852000AE2B1 /* EmitterLayer_Snow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayer_Snow.h; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 		8AA9445F1DF533270055B10D = {
 			isa = PBXGroup;
 			children = (
+				8A1214D91DFFE98E004A45EE /* ReplicatorLayer.h */,
+				8A1214DA1DFFE98E004A45EE /* ReplicatorLayer.m */,
 				8A5E0E311DFD5852000AE2B1 /* EmitterLayer_Snow.h */,
 				8A5E0E321DFD5852000AE2B1 /* EmitterLayer_Snow.m */,
 				8AA9448F1DF576E50055B10D /* EmitterLayer.h */,
@@ -196,6 +201,7 @@
 				8A5E0E331DFD5852000AE2B1 /* EmitterLayer_Snow.m in Sources */,
 				8AA944861DF535A90055B10D /* ContentVC.m in Sources */,
 				8AA944911DF576E50055B10D /* EmitterLayer.m in Sources */,
+				8A1214DB1DFFE98E004A45EE /* ReplicatorLayer.m in Sources */,
 				8AA9446D1DF533270055B10D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
