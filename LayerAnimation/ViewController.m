@@ -52,7 +52,9 @@ static NSString *const kLayerCellIdentifier = @"kLayerCellIdentifier";
                         @[@"CAEmitterLayer_fb点赞效果", @"EmitterLayer"],
                         @[@"CAEmitterLayer_下雪效果", @"EmitterLayer_Snow"],
                         @[@"GradientLayer渐变效果", @"GradientLayer"],
-                        @[@"ReplicatorLayer", @"ReplicatorLayer"]
+                        @[@"ReplicatorLayer", @"ReplicatorLayer"],
+                        @[@"ReplicatorLayer 2", @"ReplicatorLayer2"],
+                        @[@"ReplicatorLayer 倒影", @"ReplicatorLayer3"]
                          ];
     }
     return _dataSource;

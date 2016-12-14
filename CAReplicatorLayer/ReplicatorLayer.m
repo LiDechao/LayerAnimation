@@ -106,7 +106,7 @@
     
     // 复制layer，会连layer的动画一同复制
     _musicLayer.instanceCount = 3;  // 复制的个数
-    _musicLayer.instanceTransform = CATransform3DMakeTranslation(30, 0, 0);     //每个layer的间距。
+    _musicLayer.instanceTransform = CATransform3DMakeTranslation(30, 0, 0);     //可以理解为每个layer的间距，实际是transform的效果。
     _musicLayer.instanceDelay = 0.2;    // 动画的延迟时间
     
 }
