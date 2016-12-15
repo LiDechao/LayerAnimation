@@ -54,7 +54,8 @@ static NSString *const kLayerCellIdentifier = @"kLayerCellIdentifier";
                         @[@"GradientLayer渐变效果", @"GradientLayer"],
                         @[@"ReplicatorLayer", @"ReplicatorLayer"],
                         @[@"ReplicatorLayer 2", @"ReplicatorLayer2"],
-                        @[@"ReplicatorLayer 倒影", @"ReplicatorLayer3"]
+                        @[@"ReplicatorLayer 倒影", @"ReplicatorLayer3"],
+                        @[@"ReplicatorLayer 文字路径", @"ReplicatorLayer4"]
                          ];
     }
     return _dataSource;
