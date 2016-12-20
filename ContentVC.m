@@ -24,7 +24,7 @@
     [self.view.layer addSublayer:layer];
     
     UIImage *image = [UIImage imageNamed:@"shark.png"];
-    layer.contents = (id)image.CGImage; // 貌似只要强转id就能显示，(__bridge id)image.CGImage;
+    layer.contents = (id)image.CGImage; // 貌似只要强转id就能显示，(__bridge id)image.CGImage，但是必须得是CGImage;
     
     layer.contentsGravity = kCAGravityResizeAspect; // 调整自适应，同view的contentMode
     

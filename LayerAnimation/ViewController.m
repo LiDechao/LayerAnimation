@@ -55,7 +55,8 @@ static NSString *const kLayerCellIdentifier = @"kLayerCellIdentifier";
                         @[@"ReplicatorLayer", @"ReplicatorLayer"],
                         @[@"ReplicatorLayer 2", @"ReplicatorLayer2"],
                         @[@"ReplicatorLayer 倒影", @"ReplicatorLayer3"],
-                        @[@"ReplicatorLayer 文字路径", @"ReplicatorLayer4"]
+                        @[@"ReplicatorLayer 文字路径", @"ReplicatorLayer4"],
+                        @[@"ScrollLayer", @"ScrollLayer"]
                          ];
     }
     return _dataSource;
