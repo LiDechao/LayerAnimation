@@ -19,6 +19,8 @@
 		8A5E0E2D1DFD5811000AE2B1 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E0E2C1DFD5811000AE2B1 /* snow.png */; };
 		8A5E0E331DFD5852000AE2B1 /* EmitterLayer_Snow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E0E321DFD5852000AE2B1 /* EmitterLayer_Snow.m */; };
 		8A5E0E361DFE9896000AE2B1 /* GradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E0E351DFE9896000AE2B1 /* GradientLayer.m */; };
+		8A6E64241E08F4A60009B690 /* ScrollLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E64231E08F4A60009B690 /* ScrollLayer.m */; };
+		8A6E64261E08F6820009B690 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A6E64251E08F6820009B690 /* bg.jpg */; };
 		8A7214761DF83732009EC807 /* support@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7214751DF83732009EC807 /* support@2x.png */; };
 		8A7214781DF8373B009EC807 /* support_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7214771DF8373B009EC807 /* support_on@2x.png */; };
 		8AA9446D1DF533270055B10D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9446C1DF533270055B10D /* main.m */; };
@@ -56,6 +58,9 @@
 		8A5E0E321DFD5852000AE2B1 /* EmitterLayer_Snow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayer_Snow.m; sourceTree = "<group>"; };
 		8A5E0E341DFE9896000AE2B1 /* GradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLayer.h; sourceTree = "<group>"; };
 		8A5E0E351DFE9896000AE2B1 /* GradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLayer.m; sourceTree = "<group>"; };
+		8A6E64221E08F4A60009B690 /* ScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLayer.h; sourceTree = "<group>"; };
+		8A6E64231E08F4A60009B690 /* ScrollLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLayer.m; sourceTree = "<group>"; };
+		8A6E64251E08F6820009B690 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		8A7214751DF83732009EC807 /* support@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "support@2x.png"; path = "../support@2x.png"; sourceTree = "<group>"; };
 		8A7214771DF8373B009EC807 /* support_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "support_on@2x.png"; path = "../support_on@2x.png"; sourceTree = "<group>"; };
 		8AA944681DF533270055B10D /* LayerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,9 +121,19 @@
 			path = ARCGPathFromString;
 			sourceTree = "<group>";
 		};
+		8A6E641E1E08F2CB0009B690 /* CAScrollLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E64221E08F4A60009B690 /* ScrollLayer.h */,
+				8A6E64231E08F4A60009B690 /* ScrollLayer.m */,
+			);
+			path = CAScrollLayer;
+			sourceTree = "<group>";
+		};
 		8AA9445F1DF533270055B10D = {
 			isa = PBXGroup;
 			children = (
+				8A6E641E1E08F2CB0009B690 /* CAScrollLayer */,
 				8A1214DC1E011366004A45EE /* CAReplicatorLayer */,
 				8A5E0E341DFE9896000AE2B1 /* GradientLayer.h */,
 				8A5E0E351DFE9896000AE2B1 /* GradientLayer.m */,
@@ -159,6 +174,7 @@
 		8AA9446B1DF533270055B10D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8A6E64251E08F6820009B690 /* bg.jpg */,
 				8A1214EA1E012FD8004A45EE /* fireballoon@2x.png */,
 				8A5E0E2C1DFD5811000AE2B1 /* snow.png */,
 				8A7214751DF83732009EC807 /* support@2x.png */,
@@ -233,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6E64261E08F6820009B690 /* bg.jpg in Resources */,
 				8AA9447B1DF533270055B10D /* LaunchScreen.storyboard in Resources */,
 				8AA944881DF53C3B0055B10D /* shark@2x.png in Resources */,
 				8A5E0E2D1DFD5811000AE2B1 /* snow.png in Resources */,
@@ -261,6 +278,7 @@
 				8A1214E21E0113C8004A45EE /* ReplicatorLayer2.m in Sources */,
 				8AA944701DF533270055B10D /* AppDelegate.m in Sources */,
 				8A5E0E331DFD5852000AE2B1 /* EmitterLayer_Snow.m in Sources */,
+				8A6E64241E08F4A60009B690 /* ScrollLayer.m in Sources */,
 				8A1214EE1E013CC1004A45EE /* ReplicatorView3.m in Sources */,
 				8AA944861DF535A90055B10D /* ContentVC.m in Sources */,
 				8A5E0E361DFE9896000AE2B1 /* GradientLayer.m in Sources */,
